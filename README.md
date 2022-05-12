@@ -12,10 +12,10 @@
 ## URL da aplicação no Heroku:
 - https://javaspringboot-project.herokuapp.com/
 ### Endpoints disponiveis: 
-- users / users/{id}
-- products / products/{id}
-- categories / categories/{id} 
-- orders / orders/{id}
+- users | users/{id}
+- products | products/{id}
+- categories | categories/{id} 
+- orders | orders/{id}
 
 **É importante ressaltar, que o CRUD está implementado apenas para users, a implementação de orders, products e categories ainda é necessária ser realizada juntamento com o "seed" do banco de dados. Print que está marcado com (localhost) foi feito no banco de dados H2 somente para testes de funcionamento.**
 
@@ -30,5 +30,5 @@
 - Retorna 404 Not Found quando um usuário não existe em vez de um erro 500 genérico.
 ![image](https://user-images.githubusercontent.com/89523373/168156747-9ce01e9b-9352-4b86-88e3-8783fdf55558.png)
 - Quando um usuário com pedidos realizados tenta ser apagado, não é permito e gera um tratamento personalizado, gerando um 400 Bad Request em vez de um 500 genérico.
-- ![image](https://user-images.githubusercontent.com/89523373/168156895-9df6c529-43ea-4c69-a317-b1c47ca6aab4.png)
+![image](https://user-images.githubusercontent.com/89523373/168156895-9df6c529-43ea-4c69-a317-b1c47ca6aab4.png)
 
